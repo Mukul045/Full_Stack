@@ -13,6 +13,7 @@
       // Render the 'index' template with the provided data
       res.render('index');
     });
+    
 
     // Start the server
     app.listen(port, () => {
