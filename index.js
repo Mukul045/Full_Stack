@@ -8,12 +8,9 @@
     // Define a route to render an EJS template
     app.get('/', (req, res) => {
       // Data to pass to the template
-      const data = {
-        title: 'My Express App',
-        message: 'Hello, EJS!'
-      };
+      
       // Render the 'index' template with the provided data
-      res.render('index', data);
+      res.render('index');
     });
 
     // Start the server
