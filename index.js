@@ -4,6 +4,7 @@
 
     // Set EJS as the view engine
     app.set('view engine', 'ejs');
+    app.set('views', path.join(__dirname, 'views'));
 
     // Define a route to render an EJS template
     app.get('/', (req, res) => {
